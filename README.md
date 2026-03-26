@@ -24,8 +24,13 @@ Filter all insights by Quarter and State dynamically
 🔘 Implementing cross-visual filtering with Quarter and State slicers
 💡 Extracting real business insights from raw data — not just visualizing, but interpreting
 
--------📂 Dataset Overview
-FileRecordsColumnsDescriptionOrders.csv500Order ID, Order Date, Customer Name, State, CityCustomer & order metadataDetails.csv1,500Order ID, Amount, Profit, Quantity, Category, Sub-Category, Payment ModeTransaction line items
+## 📂 Dataset Overview
+
+| File | Records | Columns | Description |
+|------|---------|---------|-------------|
+| `Orders.csv` | 500 | Order ID, Order Date, Customer Name, State, City | Customer & order metadata |
+| `Details.csv` | 1,500 | Order ID, Amount, Profit, Quantity, Category, Sub-Category, Payment Mode | Transaction line items |
+
 
 -----Categories & Sub-Categories
 CategorySub-CategoriesClothing (63%)Saree, Kurta, T-shirt, Shirt, Trousers, Skirt, Leggings, Stole, Accessories, HankerchiefElectronics (21%)Printers, Phones, Electronic GamesFurniture (17%)Chairs, Bookcases, Tables, Furnishings
