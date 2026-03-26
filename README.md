@@ -24,20 +24,7 @@ To analyze sales performance of a fictional Indian e-commerce brand **Vistora** 
 - Understand monthly profit trends and spot loss-making periods
 - Analyze customer payment preferences across product categories
 - Filter all insights by Quarter and State dynamically
-
----
-
-## 📁 Repository Structure
-
-```
-vistora-ecommerce-dashboard/
-├── Orders.csv                  # 500 records — Order ID, Date, Customer, State, City
-├── Details.csv                 # 1500 records — Order ID, Amount, Profit, Qty, Category, Payment
-├── ecommerce_analysis.sql      # All SQL queries — cleaning, transformation, KPI extraction
-├── VistoraEcommerceDashboard.pbit  # Power BI template file
-├── vistoradashboard.png        # Dashboard screenshot
-└── README.md
-```
+- 
 
 ---
 
@@ -146,20 +133,11 @@ All cleaning and transformation steps are documented in [`ecommerce_analysis.sql
 
 ## ⚙️ How to Run This Project
 
-### Option A — Power BI Template
+###  Power BI Template
 1. Download `VistoraEcommerceDashboard.pbit`
 2. Open in **Power BI Desktop**
 3. Point the data source to `Orders.csv` and `Details.csv`
 4. Refresh — the dashboard loads automatically
-
-### Option B — SQL + Power BI from Scratch
-```sql
--- Step 1: Create tables and import CSVs into MySQL
--- Step 2: Run ecommerce_analysis.sql — cleaning & transformation
--- Step 3: Connect Power BI to MySQL (Get Data → MySQL)
--- Step 4: Import vw_master_sales view
--- Step 5: Build visuals using the imported data
-```
 
 ---
 
